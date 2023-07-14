@@ -1,31 +1,30 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
+int main()
+{
+int a,b,i,temp,s=0;
 
-int main(){
-    
-    int n;
-    int x, y, aux;
-    int soma;
-    
-    while(true){
-                
-                cin >> x;
-                cin >> y;
-                if(x <= 0) break;
-                if(y <= 0) break;
-                
-                if(x > y){
-                     aux = x;
-                     x = y;
-                     y = aux;
-                }
-                soma = 0;
-                for(int i = x; i <= y; i++){
-                        cout << i << " ";
-                       soma += i;
-                }
-                cout << "Sum=" << soma << endl;
-    }
-    return 0;
+while(true){
+
+    cin>>a>>b;
+if(a<=0)
+    break;
+if(b<=0)
+    break;
+if(a>b)
+{
+    temp=a;
+    a=b;
+    b=temp;
+}
+s=0;
+for(i=a;i<=b;i++)
+{
+    cout<<i<<" ";
+    s+=i;
+}
+cout<< "Sum="<<s<<endl;
+}
+
+return 0;
 }
