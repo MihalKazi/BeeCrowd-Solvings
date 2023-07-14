@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+    double a, pi=3.14159,x;
+    scanf("%lf",&a);
+    x=(4/3.0)*pi*a*a*a;
+    printf("VOLUME = %.3lf\n",x);
+    return 0;
+}
