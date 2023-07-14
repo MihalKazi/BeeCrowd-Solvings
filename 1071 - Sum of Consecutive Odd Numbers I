@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,i,s=0;
+int m,n;
+cin>>a>>b;
+if(a>b)
+{
+    m=a;
+    n=b;
+}
+else{
+    n=a;
+    m=b;
+}
+for(i=(n+1);i<m;++i)
+{
+    if(i%2!=0
+       )
+        s+=i;
+}
+cout<<s<<endl;
+return 0;
+}
