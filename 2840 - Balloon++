@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+int v;
+int x;
+float r=3.1415;
+scanf("%d",&a);
+scanf("%d",&b);
+v=(4*(r*a*a*a)/3);
+x=b/v;
+printf("%d\n",x);
+
+    return 0;
+}
