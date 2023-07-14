@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int X;
+    double Y,P;
+    scanf("%d%lf",&X,&Y);
+    P=X/Y;
+    printf("%.3lf km/l\n",P);
+    return 0;
+}
