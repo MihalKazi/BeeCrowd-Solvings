@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,i,temp,s=0;
+
+while(true){
+
+    cin>>a>>b;
+if(a<=0)
+    break;
+if(b<=0)
+    break;
+if(a>b)
+{
+    temp=a;
+    a=b;
+    b=temp;
+}
+s=0;
+for(i=a;i<=b;i++)
+{
+    cout<<i<<" ";
+    s+=i;
+}
+cout<< "Sum="<<s<<endl;
+}
+
+return 0;
+}
