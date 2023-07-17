@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, i, n,c,d=0,e=1;
+  cin>>a;
+  int ar[a];
+  for(i=0; i<a;i++)
+  {
+      cin>>ar[i];
+  }
+  c=ar[d];
+  for(d=0;d<a;d++)
+  {
+      if(ar[d]<c)
+      {
+          c=ar[d];
+          e=d+1;
+      }
+  }
+  cout<<e<<endl;
+    return 0;
+}
