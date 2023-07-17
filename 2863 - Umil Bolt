@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int n;
+float a,b;
+while(cin>>n)
+{
+    b=11;
+    while(n--)
+    {
+        cin>>a;
+        if(a<b)
+            b=a;
+    }
+    cout<<b<<endl;
+}
+    return 0;
+}
